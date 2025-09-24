@@ -1,0 +1,123 @@
+Como era a programação:
+Programação baixo nível
+	|
+	v
+Programação linear
+	|
+	v
+Programação estruturada
+	|
+	v
+Programação modular
+	|
+	v
+Programação Orientada a objetos
+
+
+Linguagens Poo
+c++
+Java
+Php
+Python
+Ruby
+
+Vantagens:
+Confiável
+Oportuno
+Manutenível
+Extensível
+Reutilizável
+Natural
+
+Objeto
+Coisa material ou abstrata que pode ser percebida pelos sentidos e descrita por meio das suas características, comportamentos e estado atual.
+
+Classes 
+Define os atributos e métodos comuns que serão compartilhados por um objeto.
+->Coisas que eu tenho ou Atributos (Modelo, cor, Ponta, Carga, Tampada)
+->Coisas que eu faço ou Métodos(Escrever, Rabiscar, Pintar,Tampar, Destampar)
+->Como eu estou agora? ou Estado 
+
+Classe ----> Objeto
+
+Abstração
+
+
+
+Classe Caneta
+modelo:caractere
+cor:caractere
+ponta:real
+carga:inteiro
+Tampado:logico
+
+Metodo rabiscar()
+ se (tampada) entao
+	escreva("Erro")
+ senao
+	escreva("Rabisco")
+ Fimse
+FimMetodo
+Metodo tampar()
+  tampada = verdadeiro
+FimMetodo
+FimClasse
+
+Instanciar= Gerar objeto através de uma classe 
+c1 = nova caneta 
+c1.cor="Azul"
+c1.ponta=0.5
+c1.tampada = falso
+c1.rabiscar()
+
+c2 = nova caneta 
+c2.cor="Vermelha"
+c2.ponta=1.0
+c2.tampada=falso
+c2.tampar()
+
+Diagrama de Classes
+
+Modificadores de Visibilidade
+Indica nível de acesso aos componentes internos de uma classe
+->  + Público = classe atual e todas as outras classes
+->  - Privado = Somente a classe atual pode mexer
+->  # Protegido = A classe atual e todas as sub-classes
+
+Métodos especiais
+Método acessor (Getters) = Acessa determinado atributo mantendo a segurança de acesso. 
+Método modificador (Setters) = Modificam coisas que estão dentro do objeto garantindo também a total segurança do atributo.
+Método construtor (construct) 
+
+Encapsulamento: (Boa prática para proteção do código)
+Ocultar partes independentes da implementação, permitindo construir partes invisíveis ao mundo exterior. "Um bom objeto encapsulado possui uma interface bem definida."
+Interface = Lista de serviços fornecidos por um componente. Contato com o mundo exterior que define o que pode ser feito com a classe
+*Torna mudanças invisíveis.
+*Facilita reutilização do código.
+*Reduz efeitos colaterais.
+
+Herança: Permite basear uma nova classe na definição de uma outra classe previamente existente.
+Será aplicada tanto para as caracteristicas quanto para os comportamentos.
+
+Tipos de  herança
+*Herança de implementação
+*Herança para diferença
+
+Classe Abstrata: Não pode ser instanciada. Só pode servir como progenitora
+Método Abstrato: Declarado, mas não implementado na progenitora.
+Classe Final: Não pode ser herdada por outra classe. Obrigatoriamente folha.
+Método Final: Não pode ser sobrescrito pelas suas sub-classes. Obrigatóriamente herdado.
+	            poli      morfo		
+Polimorfismo == (Muitas formas): Permite que um mesmo nome represente vários comportamentos diferentes.
+Tipos de Polimorfismo:
+*Sobreposição
+Mesma assinatura de método (Classes diferentes)
+*Sobrecarga
+Assinaturas diferentes (Mesma classe)
+
+
+
+
+
+
+
